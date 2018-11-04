@@ -1,0 +1,7 @@
+<div>
+  <ul>
+    <% @store_items.each do |item| %>
+      <li><%= item[:title] %> - <%= item[:price] %></li>
+    <% end %>
+  </ul>
+</div>
